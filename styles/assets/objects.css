@@ -1,0 +1,44 @@
+/*buttons*/
+
+/*basebutton*/
+.base-button {
+    border: none;
+    border-radius: 30px;
+    padding: 8px 5px 8px 10px;
+    margin-right: 5px;
+    background-color: #2476FE;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    width: 130px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-left: 5rem;
+  }
+  
+  .nav-link {
+    font-size: medium;
+    font-weight: 400;
+    color: #475569;
+  }
+  
+  .nav-link:hover {
+    color: #482ff7;
+  }

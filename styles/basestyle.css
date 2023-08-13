@@ -1,8 +1,13 @@
-@import "./assets/buttons.css";
-
+@import "./assets/objects.css";
 
 body {
-    background-color: white;
+    height: 100%;
+    margin: auto;
+}
+
+.mw{
+    max-width: 1248px;
+    margin: auto;
 }
 
 .nav {
