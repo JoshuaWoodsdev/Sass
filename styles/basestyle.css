@@ -3,11 +3,7 @@
 body {
     height: 100%;
     margin: auto;
-}
-
-.mw{
-    max-width: 1248px;
-    margin: auto;
+    max-width: 1448px;
 }
 
 .nav {

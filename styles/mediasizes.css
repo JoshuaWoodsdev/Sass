@@ -1,4 +1,44 @@
-@media only screen and (min-width: 448px) {
-   
-     
+ 
+ @media only screen and (min-width: 348px) {
+    body {
+        padding: 5px;
+        text-align: center;
+
+    }
+
+    .hero__main-wrapper {
+        padding-bottom: 30px;
+    }
+
+    .hero__copy-wrapper {
+        padding-bottom: 30px;
+    }
+    .hero__buttonlearnmore{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ 
+   .hero__logos-wrapper{
+    display: flex;
+    flex-direction: column;
+   }
+    .hero__logos-row-one{
+         display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: auto; 
+    }
+    
+    .hero__logos-row-two{
+        display: flex;
+        justify-content: start;
+        background-color: blue;
+    }
+
+    .logo_space{
+        padding-right: 25px;
+        background-color: pink;
+    }
+
 }
